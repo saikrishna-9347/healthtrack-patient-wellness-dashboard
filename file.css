@@ -1,0 +1,96 @@
+.card :hover {
+            filter: grayscale(100%) blur(2px) brightness(1.2);
+        }
+
+
+        .heartRate {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            color: #ffffff;
+            padding: 20px;
+            background-color: teal;
+            font-family: Awesome;
+            border-radius: 10px;
+        }
+
+        .image-card {
+            background-image: url("https://girdharhospital.com/images/slider1.jpg");
+            background-size: cover;
+            height: 20vh;
+            width: cover;
+            font-family: Roboto;
+            font-size: 70px;
+            color: green;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        @media screen and (min-width:768px) {
+            .image-card {
+                background-image: url("https://girdharhospital.com/images/slider1.jpg");
+                background-size: cover;
+                height: 40vh;
+                width: cover;
+            }
+        }
+
+        .testimonal-paragraph {
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .list-items {
+            font-size: 18px;
+            color: teal;
+        }
+
+        .card {
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 35vh;
+            height: 35vh;
+            background-color: teal;
+            margin-bottom: 15px;
+        }
+
+        .heartRate-heading {
+            color: #ffffff;
+            font-family: "Awesome";
+            text-align: center;
+            font-size: 26px;
+        }
+
+        .paragraph {
+            text-align: center;
+            font-family: "Roboto";
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .patient-appointments {
+            padding: 20px;
+            margin: 5px;
+            background-color: skyblue;
+            font-family: Awesome;
+            border-radius: 10px;
+        }
+
+        .prescription {
+            padding: 20px;
+            margin: 5px;
+            background-color: skyblue;
+            font-family: Awesome;
+            border-radius: 10px;
+        }

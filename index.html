@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="file.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Saikrishna health Project</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="healthtrack1">HealthTrack
+                <img src="https://tse4.mm.bing.net/th/id/OIP.T5tsaslsIK0004CrVJt_wAHaHa?pid=Api&P=0&h=180" alt="logo" width="45" height="45" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#appoinments1">Appoinments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prescription1">Prescriptions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reports1">Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="doctors.html">Doctor Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="profile.html">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.puMo9ITfruXP8iQx9cYcqwHaGJ?pid=Api&P=0&h=180" alt="Logo" width="40" height="34" class="d-inline-block align-text-top" />
+                C.Saroja
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="teal" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                </svg>
+            </a>
+        </div>
+    </nav>
+    <div class="image-card">
+        <h1>Patient Testimonal</h1>
+        <p class="testimonal-paragraph">Kangaroo Care hospital offers a wide range of fertility services to cater to the couples in need of the same</p>
+    </div>
+    <div>
+        <h1 class="health-metric-heading">Health Metrics Cards</h1>
+        <div class="patient-appointments" id="health1">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div>
+                        <div class="card" id="card1">
+                            <h1 class="heartRate-heading">Heart Rate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="Red" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16">
+                                    <path d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9z" />
+                                    <path d="M.88 8C-2.427 1.68 4.41-2 7.823 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8z" />
+                                </svg>
+                            </h1>
+                            <li class="paragraph">Pulse Rate: 83</li>
+                            <li class="paragraph">Resp.Rate: 52</li>
+                            <a href="heart.html" class="paragraph">
+                            <button class="btn btn-primary">Info..</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clo-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <h1 class="heartRate-heading">Blood Pressure
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="Red" class="bi bi-heart-pulse" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857q.09.083.176.171a3 3 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01zM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5" />
+                                    <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162z" />
+                                </svg>
+                            </h1>
+                            <li class="paragraph">Normal BP: 120/60</li>
+                            <li class="paragraph">Patient BP: 100/60</li>
+                            <a href="blood.html" class="paragraph">
+                                <button class="btn btn-primary">Info..</button>
+                            </a>
+                        </div>
+                </div>
+
+                <div class="clo-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <h1 class="heartRate-heading">Oxygen Level
+                                <img src="https://play-lh.googleusercontent.com/TyX8bTlarV6OvdjIgl2u3MI826QIV3_ssuwkjxv53cZk40H-y1_tC8t03sJPp9abZIc" height="30" width="30" border-radius="10" viewBox="0 0 16 16" />
+                            </h1>
+                            <li class="paragraph">SPO2 : 98%</li>
+                            <a href="oxygen.html" class="paragraph">
+                                <button class="btn btn-primary">Info..</button>
+                            </a>
+                        </div>
+                </div>
+
+                <div class="clo-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <h1 class="heartRate-heading">BMI
+                                <img src="https://static.vecteezy.com/system/resources/previews/010/952/601/large_2x/body-mass-index-classification-of-bmi-illustration-vector.jpg" height="30" width="30" border-radius="10" viewBox="0 0 16 16" />
+                            </h1>
+                            <li class="paragraph">Range: 18.5 - 24.9</li>
+                            <li class="paragraph">Patient Range: 18.5 </li>
+                            <a href="bmi.html" class="paragraph">
+                                <button class="btn btn-primary">Info..</button>
+                            </a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <h1 id="appoinments1">Patient Appointments</h1>
+        <div class="patient-appointments">
+            <table>
+                <tr>
+                    <th>S.No</th>
+                    <th>Date</th>
+                    <th>Time Slot</th>
+                    <th>Type</th>
+                </tr>
+                <tr>
+                    <th>1.</th>
+                    <td>21-Apr-2025</td>
+                    <td>6:30PM</td>
+                    <td>Normal</td>
+                </tr>
+                <tr>
+                    <th>2.</th>
+                    <td>18-May-2025</td>
+                    <td>7:15PM</td>
+                    <td>checkUp</td>
+                </tr>
+                <tr>
+                    <th>3.</th>
+                    <td>30-May-2025</td>
+                    <td>6:50PM</td>
+                    <td>Scaning</td>
+                </tr>
+                <tr>
+                    <th>4.</th>
+                    <td>15-Jun-2025</td>
+                    <td>6:00AM</td>
+                    <td>HBA1C</td>
+                </tr>
+                <tr>
+                    <th>5.</th>
+                    <td>23-Jun-2025</td>
+                    <td>6:00PM</td>
+                    <td>CheckUp</td>
+                </tr>
+                <tr>
+                    <th>6.</th>
+                    <td>12-July-2025</td>
+                    <td>8:30AM</td>
+                    <td>Scaning</td>
+                </tr>
+                <tr>
+                    <th>7.</th>
+                    <td>25-July-2025</td>
+                    <td>7:30PM</td>
+                    <td>ECG</td>
+                </tr>
+                <tr>
+                    <th>8.</th>
+                    <td>15-Aug-2025</td>
+                    <td>8:30AM</td>
+                    <td>General</td>
+                </tr>
+                <tr>
+                    <th>9.</th>
+                    <td>3-Sep-2025</td>
+                    <td>6:30AM</td>
+                    <td>UltraScaning</td>
+                </tr>
+                <tr>
+                    <th>10.</th>
+                    <td>8-Oct-2025</td>
+                    <td>9:30AM</td>
+                    <td>Vacnation</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="prescription1">
+        <h1>Prescription Section</h1>
+        <div class="prescription">
+            <h2>Dr. Sruhya Madireddy</h2>
+            <span>MBBS, MS (OBG), (High Risk pregnancy & perinatology)</span>
+            <li class="list-items">Folvate 250mg & Duration 2Months.</li>
+            <li class="list-items">Calcium 250mg & Duration 6Months.</li>
+            <li class="list-items">Iron Supplements & Duration 6Months.</li>
+            <li class="list-items">Taxim O 250mg & 10Days.</li>
+        </div>
+    </div>
+
+    <div id="reports1">
+        <h1>Reports</h1>
+        <div class="prescription">
+            <div class="d-flex flex-column justify-content-center" style="text-align:center">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://res.cloudinary.com/dbkwd9aql/image/upload/v1754114168/WhatsApp_Image_2025-08-02_at_11.21.47_8211436f_rmc8qn.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dbkwd9aql/image/upload/v1754114201/WhatsApp_Image_2025-08-02_at_11.21.47_8152d575_cig6vy.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dbkwd9aql/image/upload/v1754114216/WhatsApp_Image_2025-08-02_at_11.21.47_f479c0f9_hnv4l2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dbkwd9aql/image/upload/v1754114264/WhatsApp_Image_2025-08-02_at_11.21.48_2a146455_ik72d1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>      
+            <p>There are no obvious structural defects at this period of gestation.
+                The fetal growth and liquor apperar adequate</p> <hr/>
+                <h1>Fetal Anatomy</h1>
+            <ul>
+                <li>The couple where aware that Ultrasonography cannot exclude all the chromosomal abnormalities or genetic syndromes
+                    limitations of the scan due to fetal position and maternal body habitus and the possibility of evolving  abnormalities assets
+                    gestational age advances.
+                </li>
+                <li>skull/brain appears normal.</li>
+                <li>Choroid plexuses and intracranial strctures seen.</li>
+                <li>Neck seen.</li>
+                <li>Spine seen.</li>
+                <li>Oribits and pre maxillary triangle seen.</li>
+                <li>Four chamber view and outflow tract seen.</li>
+                <li>Abdominal wall and stomach bubble seen.</li>
+                <li>Bladder and kidneys seen.</li>
+                <li>Ipper limbs and lower limbes seen.</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<style>
+    .card :hover {
+            filter: grayscale(100%) blur(2px) brightness(1.2);
+        }
+
+
+        .heartRate {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            color: #ffffff;
+            padding: 20px;
+            background-color: teal;
+            font-family: Awesome;
+            border-radius: 10px;
+        }
+
+        .image-card {
+            background-image: url("https://girdharhospital.com/images/slider1.jpg");
+            background-size: cover;
+            height: 20vh;
+            width: cover;
+            font-family: Roboto;
+            font-size: 70px;
+            color: green;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        @media screen and (min-width:768px) {
+            .image-card {
+                background-image: url("https://girdharhospital.com/images/slider1.jpg");
+                background-size: cover;
+                height: 40vh;
+                width: cover;
+            }
+        }
+
+        .testimonal-paragraph {
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .list-items {
+            font-size: 18px;
+            color: teal;
+        }
+
+        .card {
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 35vh;
+            height: 35vh;
+            background-color: teal;
+            margin-bottom: 15px;
+        }
+
+        .heartRate-heading {
+            color: #ffffff;
+            font-family: "Awesome";
+            text-align: center;
+            font-size: 26px;
+        }
+
+        .paragraph {
+            text-align: center;
+            font-family: "Roboto";
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .patient-appointments {
+            padding: 20px;
+            margin: 5px;
+            background-color: skyblue;
+            font-family: Awesome;
+            border-radius: 10px;
+        }
+
+        .prescription {
+            padding: 20px;
+            margin: 5px;
+            background-color: skyblue;
+            font-family: Awesome;
+            border-radius: 10px;
+        }
+</style>
+   
+</body>
+</html> 
